@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background-color: #071629;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 168px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+header .logo-icon {
+    width: 35px;
+    height: 35px;
+}
+
+header .logo-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+header nav {
+    display: flex;
+    gap: 41px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.quote-section {
+    background-color: #c271ff;
+    padding: 80px 168px;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.quote-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.quote-content {
+    color: #ffffff;
+}
+
+.quote-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.quote-role {
+    font-size: 16px;
+    font-style: italic;
+}
